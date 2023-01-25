@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// source: https://gosamples.dev/unix-time/
 
 	date := time.Date(2023, 6, 1, 0, 0, 0, 0, time.UTC)
 	fmt.Println(date.Unix())
