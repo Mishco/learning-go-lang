@@ -15,6 +15,9 @@ func main() {
 	x = 42
 	fmt.Printf("value: %v type: %T\n", x, x)
 
+	// var zzz int = 0
+	// you can not compile not used variable
+
 	var y = int(x)
 	s := fmt.Sprintf("value: %v type: %T", y, y)
 	fmt.Println(s)
