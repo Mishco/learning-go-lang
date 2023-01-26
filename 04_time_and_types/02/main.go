@@ -5,7 +5,7 @@ import (
 )
 
 // Write a program that prints a number in decimal, binary, and hex.
-func main() {
+func prints_values(input_from_outside int) {
 	var input int
 	fmt.Print("Enter a number: ")
 	fmt.Scan(&input)
